@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <h2>Event Registration</h2>
+    </div>
+    <form action="">
+      <label for="Full">Name</label> <br />
+      <input type="text" name="FullName" id="Full" /> <br />
+      <label for="email">Email</label> <br />
+      <input type="email" id="email" name="email" /><br />
+      <label for="phone">Phone</label><br />
+      <input type="tel" name="phone" id="phone" /><br />
+      <br />
+
+      <label for="occ">Occupation</label>
+      <select name="Occupation" id="occ">
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="business">Business</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Topics of Intrest</legend>
+
+        <label for="lang">HTML</label>
+        <input type="checkbox" id="intrests0" name="checkbox" /><br />
+        <label for="lang">CSS</label>
+        <input type="checkbox" id="intrests1" name="checkbox" /><br />
+        <label for="lang">JS</label>
+        <input type="checkbox" id="intrests2" name="checkbox" /><br />
+      </fieldset>
+      <label for="comm">Comment Section</label><br />
+      <textarea name="Comment" id="comm" rows="5" cols="50"> </textarea>
+      <button style="height: 25px; width: 100px">Register</button>
+    </form>
+  </body>
+</html>

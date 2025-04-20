@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <h2>Complex Form</h2>
+    </div>
+
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name :</label>
+
+        <input type="text" name="name" id="name" />
+
+        <label for="email">Email:</label>
+
+        <input type="email" name="email" id="email" />
+
+        <label for="phone">Phone :</label>
+
+        <input type="tel" name="phone" id="phone" />
+
+        <label for="dt">Date of Birth:</label>
+
+        <input type="date" id="dt" name="dob" />
+
+        <label for="gen">Gender</label>
+        <label for="radio1">Male</label>
+        <input type="radio" name="Gen" id="radio1" />
+
+        <label for="radio2">Female</label>
+        <input type="radio" name="Gen" id="radio2" />
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="In">India</option>
+          <option value="En">England</option>
+          <option value="Af">Africa</option>
+          <option value="Nz">Nee Zeeland</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          <label for="add">Address Street</label>
+          <input type="text" id="add" name="Address" />
+
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" />
+
+          <label for="zip">Zip Code</label>
+          <input type="text" id="zip" name="Zip Code" />
+        </legend>
+      </fieldset>
+
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="comm">Comment</label>
+        <textarea name="Comment" id="comm" rows="10" cols="50"></textarea>
+
+        <label for="check">I agree to the terms of service</label>
+        <input type="checkbox" id="check" name="verfication" />
+      </fieldset>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>
