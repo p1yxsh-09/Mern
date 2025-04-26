@@ -1,0 +1,47 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: beige;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1200px;
+  justify-content: center;
+  align-items: center;
+  /* align-items: stretch; */
+  align-content: start;
+
+  
+
+  
+
+}
+.box{
+  height: 200px;
+  width: 200px;
+  border: 2px solid brown;
+  margin: 5px;
+  padding: 5px;
+}
+
+#box1 {
+
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: blue;
+}
+
+#box3 {
+  background-color: orange;
+}
+
+#box4 {
+  background-color: brown;
+
+}
