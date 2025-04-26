@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -14,13 +14,8 @@ body{
   align-items: center;
   /* align-items: stretch; */
   align-content: start;
-
-  
-
-  
-
 }
-.box{
+.box {
   height: 200px;
   width: 200px;
   border: 2px solid brown;
@@ -29,7 +24,6 @@ body{
 }
 
 #box1 {
-
   background-color: aqua;
 }
 
@@ -43,5 +37,4 @@ body{
 
 #box4 {
   background-color: brown;
-
 }
