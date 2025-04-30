@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="images/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(-225deg, #021610 0%, #308bec 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+      .box {
+        height: 68%;
+        width: 22%;
+        background-image: linear-gradient(-225deg, #1b35a8 0%, #4e7ec2 100%);
+        border-radius: 20px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .box img {
+        width: 100%;
+        border-radius: 20px;
+        height: 30%;
+        box-shadow: 2px 3px 15px black;
+      }
+      .box p {
+        text-align: center;
+        padding: 30px;
+        font-size: 1.1em;
+      }
+      .pay {
+        height: 12%;
+        width: 85%;
+        background: #347271; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #26bcda,
+          #36cad4
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #2ef1f4,
+          #0f989d
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .pay img {
+        height: 50px;
+        width: fit-content;
+        border-radius: 50%;
+        background: #1c92d2; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #0c3742,
+          #1c92d2
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #44a2b5,
+          #043a56
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        /* box-shadow: inset -1px -1px 12px rgb(255, 255, 255); */
+      }
+      .pay p {
+        font-size: 1.2em;
+      }
+
+      .btn-grad {
+        background-image: linear-gradient(
+          to right,
+          #68b5b1 0%,
+          #96deda 51%,
+          #50c9c3 100%
+        );
+      }
+      .btn-grad {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        display: block;
+      }
+
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+
+a {
+  text-decoration: none;
+  color: rgb(47, 78, 235);
+}
+
+a:link {
+  /* Unvisited link */
+  color: rgb(27, 200, 219);
+}
+
+a:visited {
+  /* Visited link */
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  /* When hovering over the link */
+  color: rgb(67, 120, 234);
+}
+
+a:active {
+  /* While the link is being clicked */
+  color: rgb(103, 237, 37);
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="images/images.jpeg" alt="" />
+
+        <h1>Order Summary</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          delectus hic assumenda. Vel ipsum aut impedit nulla quo unde, ex
+          praesentium inventore nisi cum. Mollitia dolore quasi omnis ipsum vel.
+        </p>
+
+        <div class="pay">
+          <img
+            src="/Phase-3/Card Project/images/751a34af2d7a1c6bfbf089131fa04b96-musical-note-icon.webp"
+            alt=""
+          />
+          <p>
+            Annual Plan <br />
+            $9.99/year
+          </p>
+          <a href="#">Change</a>
+        </div>
+
+        <div class="btn-grad">Proceed To Pay</div>
+        <a href="#">Cancel Order</a>
+      </div>
+    </div>
+  </body>
+</html>

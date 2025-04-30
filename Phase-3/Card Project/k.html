@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(-225deg, #021610 0%, #308bec 100%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftbox {
+        height: 50%;
+        width: 25%;
+        background-color: purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .head {
+        width: 75%;
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .type {
+        height: 10%;
+        min-height: 12%;
+        width: 90%;
+        margin: auto;
+        background-color: wheat;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .head p {
+        font-size: 2.3rem;
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        transition-property: all;
+        transition-duration: 1
+
+      }
+      .head p:hover {
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftbox">
+        <div class="head">
+          <p>Get Inside that help your busness Grow</p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            sequi tenetur impedit ducimus maxime magnam et veniam, ab eaque
+            natus neque fuga dolorem omnis libero illo, quibusdam corporis
+            voluptas debitis.
+          </p>
+        </div>
+        <div class="type">
+          <div>
+            <p>10K+</p>
+            <p>Comments</p>
+          </div>
+          <div>
+            <p>214</p>
+            <p>Paid Users</p>
+          </div>
+          <div>
+            <p>12M+</p>
+            <p>Views</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightbox">
+        <img src="images/images.jpeg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
