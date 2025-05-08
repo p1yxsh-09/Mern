@@ -42,4 +42,3 @@ console.log(a);
 
 // a = 20;
 // console.log(a); // see nahi hua samjhe
- 
