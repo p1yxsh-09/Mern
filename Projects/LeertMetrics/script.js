@@ -17,9 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     const regex = /^(?!.*[_-]{2})(?![_-])[a-zA-Z0-9_-]{3,16}(?<![_-])$/;
     const isMatching = regex.test(username);
+
     if (!isMatching) {
       alert("Invalid Username");
     }
+
     return isMatching;
   }
 
@@ -32,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!response.ok) {
         throw new Error("Unable to Fetch the Username");
       }
-      console.log(response);
       const parseddata = await response.json();
       console.log("Logging data", parseddata);
 
