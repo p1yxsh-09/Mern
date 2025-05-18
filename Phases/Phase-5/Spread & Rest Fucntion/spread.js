@@ -12,7 +12,14 @@ const cats = ["Persian", "Siamese", "Maine Coon"];
 
 const dogs = ["Labrador", "Beagle", "Bulldog"];
 const pets = [...cats, ...dogs];
-console.log(pets);
+// console.log(pets);
 
+//  spread only copied the reference of the array and not the actual array
 
-//  spread only copied the reference of the array and not the actual array  
+// example of rest operator
+function Medals(gold, silver, ...other) {
+  console.log(gold);
+  console.log(silver);
+  console.log(other);
+}
+Medals(1, 2, 3, 4, 5, 6);
