@@ -20,5 +20,19 @@ const testScores = {
 let pop = Object.entries(testScores);
 
 for (let po of pop) {
-  console.log(po);
+  // console.log(po);
 }
+
+// for each looop
+
+const numbers = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+];
+
+// function print(numbers) {
+//   console.log(numbers);
+// }
+
+numbers.forEach(function (el) {
+  console.log(el);
+});
