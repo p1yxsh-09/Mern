@@ -1,4 +1,3 @@
-
 //function definition
 // function sayMyName() {
 //     console.log("Love Babbar")
@@ -6,7 +5,6 @@
 
 // //function use - function call
 // sayMyName();
-
 
 // function printCounting() {
 //     for(let i=1; i<=100; i++) {
@@ -28,7 +26,6 @@
 // }
 
 // getAverage(3,70);
-
 
 //return functions
 
@@ -53,7 +50,6 @@
 // let fullName = getMyName(7, 7);
 // console.log("Full Name: ", fullName);
 
-
 // const getMultiplication = function (a,b) {
 //     return a*b;
 // }
@@ -66,13 +62,19 @@
 //     return ans;
 // }
 
-
 // let ans = squareNumber(5);
 // console.log(ans);
 
-let getExp = (x,y) => {
-    let ans = x**y;
-    return ans;
-}
+// let getExp = (x, y) => {
+//   let ans = x ** y;
+//   return ans;
+// };
 
-console.log(getExp(2,10));
+// console.log(getExp(2, 10));
+
+
+// arrow function implicit return
+
+const rollDie = () => Math.floor(Math.random() * 6) + 1;
+
+console.log(rollDie());
