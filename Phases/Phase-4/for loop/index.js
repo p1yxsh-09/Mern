@@ -34,5 +34,5 @@ const numbers = [
 // }
 
 numbers.forEach(function (el) {
-  console.log(el);
+  console.log(el / 2);
 });
