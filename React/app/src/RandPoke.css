@@ -1,0 +1,10 @@
+.Poke{
+    border: 1px solid white;
+    
+}
+.Poke img{
+    width: 150px;
+}
+.Poke h1{
+    color: blue;
+}
